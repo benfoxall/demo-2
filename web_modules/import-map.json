@@ -1,6 +1,7 @@
 {
   "imports": {
     "react": "./react.js",
+    "react-confetti": "./react-confetti.js",
     "react-dom": "./react-dom.js"
   }
 }
