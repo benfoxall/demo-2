@@ -1,0 +1,10 @@
+body {
+  color: #f0f;
+  font-size: 20vmin;
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-weight: 800;
+}

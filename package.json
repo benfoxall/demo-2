@@ -4,7 +4,9 @@
   "description": "GitHub Dev Demo 2 – complex pages",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "snowpack dev",
+    "build": "snowpack build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/benfoxall/demo-2/issues"
   },
-  "homepage": "https://github.com/benfoxall/demo-2#readme"
+  "homepage": "https://github.com/benfoxall/demo-2#readme",
+  "dependencies": {
+    "@snowpack/plugin-react-refresh": "^2.3.9",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "snowpack": "^2.18.5"
+  }
 }
